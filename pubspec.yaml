@@ -1,0 +1,51 @@
+name: hoopa_book
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - icons/
+    - images/
+  
+  fonts:
+    - family: Flower
+      fonts:
+        - asset: fonts\Flower.ttf
+      
+    - family: Ranga-Bold
+      fonts:
+        - asset: fonts\Ranga-Bold.ttf
+
+    - family: Ranga-Regular
+      fonts:
+        - asset: fonts\Ranga-Regular.ttf
+
+    - family: Itim-Regular
+      fonts:
+        - asset: fonts\Itim-Regular.ttf
+
+        
+
